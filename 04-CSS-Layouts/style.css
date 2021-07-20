@@ -30,7 +30,7 @@ h1 {
     font-size: 26px;
     text-transform: uppercase;
     font-style: italic;
-    float: left;
+    float: left ;
 }
 
 h2 {
@@ -91,7 +91,7 @@ article header p {
 }
 
 .container {
-    width: 800px;
+    width: 1200px;
     /* margin-left: auto;
     margin-right: auto; */
     margin: 0 auto;
@@ -204,3 +204,16 @@ h2::before {
 
 /* FLOATS */
 
+article {
+    width: 825px;
+    float: left;
+}
+
+aside {
+    width: 300px;
+    float: right;
+}
+
+footer {
+    clear: both;
+}
