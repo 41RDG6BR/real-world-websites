@@ -98,6 +98,7 @@ article header p {
     margin-right: auto; */
     margin: 0 auto;
     /* position: relative; */
+    display: flex;
 }
 
 .main-header {
@@ -259,4 +260,19 @@ footer {
     font-style: normal;
     margin-bottom: 5px;
     display: block;
+}
+
+.row {
+    display: flex;
+    gap: 75px;
+    margin-bottom: 60px;
+    align-items: flex-start;
+}
+
+article {
+    flex: 1;
+}
+
+aside {
+    flex: 0 0 300px;
 }
